@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="author" content="Luxy Beauty">
+    <meta name="description" content="Luxy Beauty - Santuario de lujo y belleza profesional">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://cdnjs.cloudflare.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data:; font-src 'self' https://cdnjs.cloudflare.com; connect-src 'self'; frame-ancestors 'none'">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Luxy Beauty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">        
+</head>
+<body>
+<header>
+  <div class="main">
+    <div class="navbar">
+      <div class="icon">
+        <img src="Images/logo_de_luxy-removebg-preview.png" width="300" height="300" alt="Logo Luxy Beauty" class="logo-img">
+        <h2 class="logo">Luxy <br> Beauty</h2>
+      </div>
+      <div class="menu">
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul id="menu-list">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicio.html">Servicio</a></li>
+          <li><a href="Productos.html">Productos</a></li>
+          <li><a href="Nosotros.html">Nosotros</a></li>
+          <li><a href="Contacto.html">Contacto</a></li>
+         </ul>
+         </div>
+       <div class="search-box">
+        <input type="text" placeholder="buscar">
+        <button type="submit" class="search-btn"><img src="Images/busqueda.png" alt="Buscar" class="search-icon"></button>
+        <button type="button" class="user-button" id="login-toggle" title="Iniciar sesión">
+          <img src="Images/Icono de cuenta.png" alt="Perfil" class="user-icon">
+          <span>Iniciar sesión</span>
+        </button>
+      </div>
+  </div>
+  <div class="content">
+    <h1>Lujo & <br><span>Belleza</span><br> Profesional</h1>
+    <p class="par">Bienvenida a <b>LUXY BEAUTY</b>, el santuario donde tu estilo cobra vida. 
+   <br>Especialistas en cuidado capilar con productos <b>Monarca Ulje</b>, 
+   diseño de uñas y pestañas de impacto.</p>
+
+             <a href="descubre tu lugar.html" class="cn">Descubre tu lugar con nosotras</a>
+              
+             
+           </div>
+            <footer>
+    <div class="footer-content">
+        <p>&copy; 2026 Luxy Beauty - Elegancia que se nota.</p>
+        <div class="socials">
+            <a href="https://www.instagram.com/luxy_beauty27/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.google.com/maps/d/edit?mid=1y80Lc-ubrhBE9BQqq_3N_wDdMClUNt4&usp=sharing" target="_blank" title="Ubicación"><i class="fas fa-location-dot"></i>
+        </div>
+        <p>Santuario de lujo y belleza profesional</p>
+    </div>
+</footer>
+        </div>
+      </header>
+    <section class="login-panel" id="login-panel">
+      <div class="login-panel-card">
+        <button type="button" class="login-close" id="login-close">&times;</button>
+        <h3>Iniciar sesión</h3>
+        <p>Accede con tu usuario o correo para reservar y ver tus servicios.</p>
+        <form class="login-form">
+          <input type="text" placeholder="Usuario o correo" required>
+          <input type="password" placeholder="Contraseña" required>
+          <button type="submit" class="login-submit"><i class="fas fa-lock"></i> Acceder</button>
+        </form>
+      </div>
+    </section>
+    <script src="security.js"></script>
+    <script>
+        if (document.documentElement.getAttribute('debugger') !== null) {
+            alert('Acceso denegado');
+        }
+    </script>
+    <script src="script.js"></script>
+
+    </body>
+    
+    </html>

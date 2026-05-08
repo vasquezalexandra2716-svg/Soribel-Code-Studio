@@ -1,0 +1,29 @@
+# robots.txt - Luxy Beauty
+# © 2026 Luxy Beauty. Todos los derechos reservados.
+
+# Bloquear todos los robots
+User-agent: *
+Disallow: /
+
+# Específicamente bloquear copybots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Permitir solo a Google para indexación controlada (opcional)
+# User-agent: Googlebot
+# Allow: /
+
+# Sitemap (si la tienes)
+# Sitemap: https://www.luxybeuty.com/sitemap.xml
